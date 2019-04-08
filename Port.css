@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #230808;
+}
+
+.Logo {
+    font-size: 1.2em;
+    font-family: "Great Vibes";
+}
+
+
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+
+}
+#direction {
+    display: flex
+}
+
+div {
+    padding: .5em;
+
+}
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #058805;
+
+}
+
+a:hover {
+    background-color: #f6d10a;
+}
+
+.Home {
+    background-image: url(img/Code.jpg);
+    max-height: 60em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Port {
+    background-image: url(img/Keyboard.jpg);
+    min-height: 50em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.head {
+    text-align: center;
+    padding: 10em;
+    color: #ff3a3a;
+    font-family: "Lobster";
+}
+
+.Skill {
+    margin: 6em;
+    padding: 1em;
+    font-family: 'Lobster', cursive;
+}
+.Proj{
+    background-image: url(img/head.png);
+    background-size: cover;
+    min-height: 50em;
+}
+.Intro {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 4em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+}
+
+/*Navs & Header*/
+
+.parallax {
+    height: 40vh;
+    width: 99%;
+    border-bottom: 1em solid black;
+    padding-top: 20vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Overlay {
+    height: 10vh;
+    width: 20vw;
+    margin: auto;
+    opacity: .9;
+}
+
+#ParaOne {
+    background-image: url(img/html.jpg);
+}
+
+#ParaTwo {
+    background-image: url(img/CSS.jpg);
+}
+
+#ParaThree {
+    background-image: url(img/Javscript.jpg);
+}
+
+/*Parallex End*/
+
+h1 {
+    text-align: center;
+    color: #f6d10a;
+}
+
+
+.Flex-Con {
+    margin: 5em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+    font-family:"Great Vibes";
+    align-self: stretch;
+    
+}
+.F1{
+    
+}
+.Resume{
+    background-image: url(img/Resume.jpg);
+    background-size: cover;
+    min-height: 50em;
+}
+/*Portfolio*/
+
+
+
+.Flex{
+    margin: 4em;
+    display: flex;
+    flex-direction:;
+    justify-content: center;
+    align-content: space-between;
+    font-family:"Great Vibes";
+    font-size: 1.4em;
+}
+.Pro1{
+   margin: 1em;
+    border: .1em solid;
+    box-shadow: .2em .3em #b6d0e0;
+}
+.Pro2{
+   margin: 1em;
+     border: .1em solid;
+    box-shadow: .2em .3em #b6d0e0;
+}
+
+.Pro3{
+   margin: 1em;
+     border: .1em solid;
+    box-shadow: .2em .3em #b6d0e0;
+}
+
+.Pro4{
+   margin: 1em;
+     border: .1em solid;
+    box-shadow: .2em .3em #b6d0e0;
+}
+/*Project*/
+.Abou{
+    background-image: url(img/book.jpg);
+    min-height: 40em;
+    font-family: "Great Vibes";
+
+}
+.down{
+    padding: 4em;
+}
+
+.About{
+    margin: 2em;
+   justify-content: center;
+    font-size: 2em;
+    font-family: "Great Vibes"
+}
+.Contact{
+  margin: 6em;
+    padding: 2em;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: space-between;
+    font-family:"Great Vibes";
+}
+.Form{
+    font-size: 3em;
+    margin: 1em;
+}
+input{
+    height: 3em;
+}
+button{
+    height: 3em;
+   width: 6em;
+}
+button:hover{
+    color: #5583ac;
+}
+.Icons{
+    padding: 1em;
+    margin: 1em;
+    
+}
+/*Contact*/
+footer{
+   left: 0;
+   bottom: 0;
+   width: 100%; 
+    display: flex;
+    flex-direction: row;
+    background-color: #a7d9ea;
+    justify-content: center;
+    font-size: 3em;
+    font-family: "Great Vibes";
+}
+
