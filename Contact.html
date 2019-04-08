@@ -44,12 +44,12 @@
     <h2>Leave a Message!</h2>
     <div class="Contact">
        <div class="Form">
-        <form action="/action_page.php">
+        <form name="contact" method="post" data-netlify="true">
             Name:<br>
-            <input type="text" name="fname" value="Enter your Name">
+            <input type="text" name="fname" >
             <br>
             Gmail Address: <br>
-            <input type="text" name="mail" value="John@mail.com"><br>
+            <input type="text" name="mail"><br>
              Message: <br>
               <textarea name="text" id="TA" cols="40" rows="20"></textarea><br>
                <button type="submit" value="Send">Send</button>
